@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+.black-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.shadow_new{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.new_grid{
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+}
+
+.neww_grid{
+    grid-template-columns: 1fr 1fr 1fr 1.5fr 1fr 0.5fr;
+}
